@@ -28,4 +28,10 @@ npm run start
 ```
 
 ### API Documentation 
+
 http://localhost:3000/api-docs
+
+![docs](https://github.com/user-attachments/assets/9ab6b354-fc40-4981-b051-7e887b255615)
+
+
+
