@@ -9,9 +9,9 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const products = require("./src/routes/router")
+const routes = require("./src/routes/router")
 
-app.use(products);
+app.use(routes);
 
 if (process.env.NODE_ENV !== "test") {
     app.listen(PORT, () => {
